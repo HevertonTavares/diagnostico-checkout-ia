@@ -5,6 +5,7 @@ import os
 import openai
 
 st.set_page_config(page_title="Diagnóstico Checkout com IA", layout="centered")
+st.write("🔍 OPENAI_API_KEY:", repr(os.getenv("OPENAI_API_KEY")))
 st.title("📋 Diagnóstico de Checkout com IA")
 
 st.markdown("🧠 Esta análise utiliza inteligência da OpenAI para maior assertividade.")
