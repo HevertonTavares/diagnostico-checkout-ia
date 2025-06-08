@@ -5,7 +5,7 @@ import pandas as pd
 import os
 import json
 from datetime import datetime
-st.write("🔍 OPENAI_API_KEY:", repr(os.getenv("OPENAI_API_KEY")))
+
 st.set_page_config(page_title="Diagnóstico site do parceiro Appmax", layout="centered")
 st.title("📋 Diagnóstico site do parceiro Appmax")
 st.markdown("🧠 Esta análise utiliza inteligência da OpenAI para maior assertividade.")
